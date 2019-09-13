@@ -1,0 +1,159 @@
+/* App.js */
+
+h1 {
+  font-size: 36px;
+  color: #d9284c;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New";
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Courier";
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New";
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+small {
+  font-family: "Times New Roman";
+  font-size: 15px;
+  padding-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Courier New";
+}
+
+.appContainer {
+  padding-top: 0;
+}
+
+.cozyFooter {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+/* HomePage.js */
+
+.homePageComponent {
+  margin: 0 auto;
+  max-width: 1040px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.contentWrapper {
+  padding-bottom: 20px;
+}
+
+.showFlier {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CozyLinks.js */
+.cozyLinksComponent {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.headerPicContainer {
+  overflow: hidden;
+  text-align: center;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headerPic {
+  text-align: center;
+  width: 1000px;
+}
+
+.profilePic {
+  border-radius: 9999px;
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.subHeader {
+  font-size: 24px;
+  padding-bottom: 10px;
+  color: #d9284c;
+  text-align: center;
+}
+
+.linkWrapper {
+  font-size: 24px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.dividerLine {
+  height: 1px;
+  width: 100%;
+  margin: 0 -20px;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.aBedroomStoryImg {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #d9284c;
+}
+
+a:visited {
+  color: none;
+}
+
+.red {
+  color: #d9284c;
+}
+
+/* CozyBedroomStory.js */
+.cozyBedroomStoryComponent {
+  padding: 0 20px;
+}

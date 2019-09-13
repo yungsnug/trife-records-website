@@ -1,0 +1,33 @@
+.epkComponent {
+  padding: 50px 15px;
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.epkSocialLinks a {
+  display: block;
+  padding-bottom: 10px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.epkImage {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.epkInfoSection {
+  padding-bottom: 40px;
+}
+
+.clickableInfoSection:hover {
+  text-decoration: underline;
+  color: #d9284c;
+  cursor: pointer;
+}
